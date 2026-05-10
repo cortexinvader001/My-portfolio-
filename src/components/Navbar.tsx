@@ -38,9 +38,13 @@ export default function Navbar() {
             className="flex items-center gap-3 group"
             whileHover={{ scale: 1.02 }}
           >
-            <div className="w-8 h-8 bg-white flex items-center justify-center rounded-sm">
-              <span className="text-black font-bold text-xs">KS</span>
-            </div>
+            <div className="w-8 h-8 bg-white flex items-center justify-center rounded-sm overflow-hidden">
+  <img
+    src="https://i.ibb.co/vbN3hQb/image-13.jpg"
+    alt="KS"
+    className="w-full h-full object-cover"
+  />
+</div>
             <span className="text-[10px] tracking-[0.3em] uppercase font-mono text-cyan-400 group-hover:text-cyan-300 transition-colors">System_V1.0</span>
           </motion.a>
 
